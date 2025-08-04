@@ -1,0 +1,12 @@
+# Ignore all files and directories except for the main project files.
+
+# Ignore specific files
+Solar_System_PRD.md
+TODO.md
+USER_STORIES.md
+.roomodes
+
+# Ignore directories
+.bmad-core/
+.gemini/
+web-bundles/

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="info-card" class="hidden">
+        <button id="close-btn">&times;</button>
+        <h2 id="planet-name"></h2>
+        <p><strong>直径:</strong> <span id="planet-diameter"></span></p>
+        <p><strong>质量:</strong> <span id="planet-mass"></span></p>
+        <p><strong>平均日距:</strong> <span id="planet-distance"></span></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
