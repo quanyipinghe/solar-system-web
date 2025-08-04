@@ -109,6 +109,10 @@ function onMouseMove(event) {
 }
 
 function onClick(event) {
+    const audio = document.querySelector('audio');
+    audio.muted = false;
+    audio.play();
+
     // Check if the click was on an intersected object
     if (intersectedObject) {
         const data = intersectedObject.userData;
